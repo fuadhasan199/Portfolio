@@ -1,0 +1,21 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.profile-circle-container {
+  position: relative;
+  border: 1px solid rgba(123, 44, 191, 0.3);
+  border-radius: 50%;
+  padding: 20px;
+}
