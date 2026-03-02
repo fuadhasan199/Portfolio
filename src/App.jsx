@@ -2,7 +2,8 @@
 import './App.css'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
-import About from "./Components/About";
+import About from "./Components/About"
+import Skills from "./Components/Skills"
 function App() {
   
 
@@ -13,7 +14,8 @@ function App() {
 
         <main> 
            <Hero></Hero> 
-           <About></About>
+           <About></About> 
+           <Skills></Skills>
 
         </main>
       
