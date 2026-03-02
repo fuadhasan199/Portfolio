@@ -12,13 +12,14 @@ const Hero = () => {
           </span>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-brandDark leading-tight mb-8">
-            <span className="text-brandPurple">Front</span>end<br />
-            Developer
+            <span className="text-brandPurple"><span className="text-brandPurple">MERN</span> Stack<br />
+Developer </span>
+           
           </h1>
 
           <p className="text-lg md:text-xl text-gray-500 max-w-lg mb-10 leading-relaxed">
-            I build modern, scalable web applications focused on performance,
-            usability, and clean user experience.
+           I build modern web applications using React, Node.js, Express, and MongoDB. 
+Passionate about learning and contributing to real-world development teams.
           </p>
 
           {/* Buttons */}
@@ -51,7 +52,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full overflow-hidden  bg-gray-100">
               <img src={Image}
                 alt="Frontend Developer"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full  object-cover object-center"
               />
             </div>
           </div>
