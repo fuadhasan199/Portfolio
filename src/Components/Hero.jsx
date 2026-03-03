@@ -24,7 +24,7 @@ Developer </span>
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a
-              href="/resume.pdf"
+              href="./../../public/Resume.pdf" target="_blank" rel="noreferrer"
               download
               className="inline-flex items-center gap-2 px-8 py-4 bg-brandPurple  font-bold rounded-lg hover:bg-brandDark transition-all transform hover:-translate-y-1 shadow-lg shadow-brandPurple/20"
             >
