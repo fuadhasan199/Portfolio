@@ -1,69 +1,110 @@
-import React from 'react';
-import { Code2, Server, ShieldCheck, Wrench, Github } from 'lucide-react';
+import React from "react";
+import { Code2, Server, ShieldCheck, Wrench } from "lucide-react";
 
 const Skills = () => {
   const skillSet = [
     {
       title: "Frontend Development",
       icon: <Code2 className="text-blue-500" size={30} />,
-      skills: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript (ES6)", "React.js"],
-      color: "border-blue-100 bg-blue-50/20"
+      skills: [
+        { name: "HTML5", level: 90 },
+        { name: "CSS3", level: 90 },
+        { name: "Tailwind CSS", level: 90 },
+        { name: "JavaScript (ES6)", level: 60 },
+        { name: "React.js", level: 80 },
+      ],
+      color: "border-blue-100 bg-blue-50/20",
     },
     {
       title: "Backend & Database",
       icon: <Server className="text-green-500" size={30} />,
-      skills: ["Node.js (Basic)", "Express.js", "MongoDB", "CRUD Operations"],
-      color: "border-green-100 bg-green-50/20"
+      skills: [
+        { name: "Node.js", level: 65 },
+        { name: "Express.js", level: 70 },
+        { name: "MongoDB", level: 70 },
+        { name: "REST API & CRUD", level: 75 },
+      ],
+      color: "border-green-100 bg-green-50/20",
     },
     {
-      title: "Security & Auth",
+      title: "Security & Authentication",
       icon: <ShieldCheck className="text-red-500" size={30} />,
-      skills: ["Firebase", "JWT (JSON Web Token)"],
-      color: "border-red-100 bg-red-50/20"
+      skills: [
+        { name: "Firebase Authentication", level: 75 },
+        { name: "JWT Authentication", level: 65 },
+      ],
+      color: "border-red-100 bg-red-50/20",
     },
     {
-      title: "Tools & Version Control",
+      title: "Tools & Deployment",
       icon: <Wrench className="text-orange-500" size={30} />,
-      skills: ["Git", "GitHub", "VS Code", "Vercel / Netlify / Cloudflare"],
-      color: "border-orange-100 bg-orange-50/20"
-    }
+      skills: [
+        { name: "Git & GitHub", level: 85 },
+        { name: "VS Code", level: 90 },
+        { name: "Vercel Deployment", level: 80 },
+        { name: "Netlify / Cloudflare Pages", level: 75 },
+      ],
+      color: "border-orange-100 bg-orange-50/20",
+    },
   ];
 
   return (
-    <section id="service" className="py-24 bg-white">
+    <section id="skills" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
+
+        {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Technical <span className="text-purple-600">Expertise</span>
+            My <span className="text-brandPurple">Tech Stack</span>
           </h2>
-          <div className="w-20 h-1.5 bg-purple-600 mx-auto rounded-full"></div>
+          <div className="w-20 h-1.5 bg-brandPurple mx-auto rounded-full"></div>
         </div>
 
-        {/* Responsive Grid */}
+        {/* Skills Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillSet.map((item, index) => (
-            <div 
-              key={index} 
-              className={`p-6 rounded-2xl border-2 ${item.color} hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group`}
+            <div
+              key={index}
+              className={`p-6 rounded-2xl border-2 ${item.color}
+              hover:shadow-xl hover:-translate-y-2 hover:border-brandPurple
+              transition-all duration-300 group`}
             >
+              {/* Icon */}
               <div className="mb-4 inline-block p-3 bg-white rounded-xl shadow-sm group-hover:scale-110 transition-transform">
                 {item.icon}
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">{item.title}</h3>
-              
-              <div className="flex flex-wrap gap-2">
+
+              {/* Title */}
+              <h3 className="text-xl font-bold mb-4 text-gray-800">
+                {item.title}
+              </h3>
+
+              {/* Skills */}
+              <div className="space-y-4">
                 {item.skills.map((skill, idx) => (
-                  <span 
-                    key={idx} 
-                    className="px-3 py-1 bg-white border border-gray-100 text-gray-600 rounded-lg text-xs font-bold shadow-sm"
-                  >
-                    {skill}
-                  </span>
+                  <div key={idx}>
+
+                    {/* Skill name + percent */}
+                    <div className="flex justify-between text-xs font-semibold text-gray-600 mb-1">
+                      <span>{skill.name}</span>
+                      <span>{skill.level}%</span>
+                    </div>
+
+                    {/* Progress Bar */}
+                    <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
+                      <div
+                        className="bg-green-500 h-2 rounded-full transition-all duration-700 ease-out"
+                        style={{ width: `${skill.level}%` }}
+                      ></div>
+                    </div>
+
+                  </div>
                 ))}
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

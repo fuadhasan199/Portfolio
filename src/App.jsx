@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import About from "./Components/About"
 import Skills from "./Components/Skills"
+import Education from './Components/Education'
 function App() {
   
 
@@ -15,7 +16,8 @@ function App() {
         <main> 
            <Hero></Hero> 
            <About></About> 
-           <Skills></Skills>
+           <Skills></Skills> 
+           <Education></Education>
 
         </main>
       

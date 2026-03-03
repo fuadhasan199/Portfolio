@@ -11,7 +11,7 @@ const Hero = () => {
             Hey, I'm Khandokar Fuad Hasan 👋
           </span>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-brandDark leading-tight mb-8">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-brandDark leading-tight mb-8">
             <span className="text-brandPurple"><span className="text-brandPurple">MERN</span> Stack<br />
 Developer </span>
            
