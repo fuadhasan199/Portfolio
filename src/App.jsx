@@ -6,6 +6,7 @@ import About from "./Components/About"
 import Skills from "./Components/Skills"
 import Education from './Components/Education'
 import Projects from './Components/Projects'
+import Contact from './Components/Contact'
 function App() {
   
 
@@ -19,7 +20,8 @@ function App() {
            <About></About> 
            <Skills></Skills> 
            <Education></Education> 
-           <Projects></Projects>
+           <Projects></Projects> 
+           <Contact></Contact>
 
         </main>
       

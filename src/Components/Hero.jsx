@@ -35,11 +35,11 @@ Developer </span>
 
           {/* Social Icons */}
           <div className="flex items-center gap-6">
-            <a href="https://github.com" target="_blank">
+            <a href="https://github.com/fuadhasan199" target="_blank">
               <Github className="hover:text-brandPurple transition" />
             </a>
 
-            <a href="https://linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com/in/khandokar-fuad-hasan-656815386/" target="_blank">
               <Linkedin className="hover:text-brandPurple transition" />
             </a>
           </div>
