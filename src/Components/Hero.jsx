@@ -12,14 +12,13 @@ const Hero = () => {
           </span>
 
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-brandDark leading-tight mb-8">
-            <span className="text-brandPurple"><span className="text-brandPurple">MERN</span> Stack<br />
+            <span className="text-brandPurple"><span className="text-brandPurple">Front</span> End<br />
 Developer </span>
            
           </h1>
 
           <p className="text-lg md:text-xl text-gray-500 max-w-lg mb-10 leading-relaxed">
-           I build modern web applications using React, Node.js, Express, and MongoDB. 
-Passionate about learning and contributing to real-world development teams.
+  I build modern and responsive web applications with a focus on clean UI and performance. Specialized in React, with a solid foundation in the MERN stack.
           </p>
 
           {/* Buttons */}
