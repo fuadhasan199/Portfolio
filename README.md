@@ -1,16 +1,35 @@
-# React + Vite
+Professional Front-end Developer Portfolio
+Welcome to my portfolio! I am a Front-end Developer based in Rangpur, Bangladesh. I specialize in building modern, responsive, and visually stunning web interfaces using React.js and Tailwind CSS v4.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features
+Responsive UI/UX: Crafted with a focus on clean, mobile-first design and smooth user experiences.
 
-Currently, two official plugins are available:
+Dynamic Theme Toggle: Switch between Light and dark modes, with preferences saved in local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+One-Page Architecture: Seamless navigation with smooth scrolling across all sections.
 
-## React Compiler
+Interactive Animations: Built using Framer Motion and Lucide React icons for a modern feel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
+Core: React.js (Vite), JavaScript (ES6).
 
-## Expanding the ESLint configuration
+Styling: Tailwind CSS v4, DaisyUI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tools: Git, GitHub, VS Code, Vercel/Netlify/cloudflare.
+
+Expertise: Clean UI design, Role-based dashboards, and API integration.
+
+
+🎓 Education
+Diploma in Computer Science & Technology: Currently in the 7th semester at Rangpur Polytechnic Institute.
+
+Complete Web Development: Professional certification from Programming Hero (Batch 12).
+
+🚀 Installation & Setup
+
+📬 Let's Connect
+Email: fuadhasan740266@gmail.com
+
+GitHub:https://github.com/fuadhasan199 
+
+Portfolio Live Link :https://fuad-portfolio-07.pages.dev/
