@@ -7,7 +7,7 @@ const Hero = () => {
 
         {/* Text Content */}
         <section className="order-2 lg:order-1 animate-fade-in">
-          <span className="inline-block text-xl md:text-2xl text-gray-700 mb-4 font-medium">
+          <span className="inline-block text-xl md:text-2xl text-gray-500 mb-4 font-medium">
             Hey, I'm Khandokar Fuad Hasan 👋
           </span>
 
@@ -24,7 +24,7 @@ Developer </span>
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a
-              href="./../../public/Resume.pdf" target="_blank" rel="noreferrer"
+              href="/Fuad Resume.pdf" target="_blank" rel="noreferrer"
               download
               className="inline-flex items-center gap-2 px-8 py-4 bg-brandPurple  font-bold rounded-lg hover:bg-brandDark transition-all transform hover:-translate-y-1 shadow-lg shadow-brandPurple/20"
             >

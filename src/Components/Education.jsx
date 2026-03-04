@@ -30,10 +30,10 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-24 bg-white">
+    <section id="education" className="py-24 bg-base-100">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold  mb-4">
             Educational <span className="text-purple-600">Qualification</span>
           </h2>
           <div className="w-24 h-1.5 bg-purple-600 mx-auto rounded-full"></div>
@@ -43,19 +43,19 @@ const Education = () => {
           {educationData.map((item, index) => (
             <div key={index} className="mb-12 ml-10 relative">
               {/* Timeline Dot & Icon */}
-              <div className="absolute -left-[64px] top-0 p-3 bg-white border-4 border-purple-50 rounded-2xl shadow-sm z-10 group-hover:scale-110 transition-transform">
+              <div className="absolute -left-[64px] top-0 p-3 bg-base-200 border-4 border-purple-50 rounded-2xl shadow-sm z-10 group-hover:scale-110 transition-transform">
                 {item.icon}
               </div>
 
               {/* Education Card */}
-              <div className="p-8 rounded-3xl bg-gray-50 border border-gray-100 hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div className="p-8 rounded-3xl bg-base-100 border border-gray-100 hover:bg-base-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-center gap-2 text-purple-600 font-bold text-sm mb-3">
                   <Calendar size={16} />
                   {item.duration}
                 </div>
-                <h3 className="text-2xl font-extrabold text-gray-800">{item.title}</h3>
-                <p className="text-lg font-semibold text-gray-600 mt-1">{item.institution}</p>
-                <div className="mt-4 inline-block px-4 py-1.5 bg-white border border-gray-200 rounded-full text-sm font-medium text-gray-500 shadow-sm">
+                <h3 className="text-2xl font-extrabold ">{item.title}</h3>
+                <p className="text-lg font-semibold  mt-1">{item.institution}</p>
+                <div className="mt-4 inline-block px-4 py-1.5  border border-base-200 rounded-full text-sm font-medium  shadow-sm">
                   {item.status}
                 </div>
               </div>

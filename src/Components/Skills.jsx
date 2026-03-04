@@ -49,12 +49,12 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-24 bg-white">
+    <section id="skills" className="py-24 bg-base-100">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold  mb-4">
             My <span className="text-brandPurple">Tech Stack</span>
           </h2>
           <div className="w-20 h-1.5 bg-brandPurple mx-auto rounded-full"></div>
@@ -70,12 +70,12 @@ const Skills = () => {
               transition-all duration-300 group`}
             >
               {/* Icon */}
-              <div className="mb-4 inline-block p-3 bg-white rounded-xl shadow-sm group-hover:scale-110 transition-transform">
+              <div className="mb-4 inline-block p-3 bg-base-200 rounded-xl shadow-sm group-hover:scale-110 transition-transform">
                 {item.icon}
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold mb-4 text-gray-800">
+              <h3 className="text-xl font-bold mb-4 text-base-color">
                 {item.title}
               </h3>
 
@@ -85,7 +85,7 @@ const Skills = () => {
                   <div key={idx}>
 
                     {/* Skill name + percent */}
-                    <div className="flex justify-between text-xs font-semibold text-gray-600 mb-1">
+                    <div className="flex justify-between text-xs font-semibold text-base-color mb-1">
                       <span>{skill.name}</span>
                       <span>{skill.level}%</span>
                     </div>
