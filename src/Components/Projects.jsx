@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Github, ExternalLink, X, Code2, Rocket, Lightbulb } from "lucide-react";
 import EmarIMG from "../assets/Emargeny.png";
-import HeroIMG from "../assets/Hero.png";
+import MockUp from "../assets/Mockup.png";
 import LoanIMG from "../assets/Loan.png";
 
 const Projects = () => {
@@ -19,14 +19,26 @@ const Projects = () => {
       futurePlans: "Integrating a real-time notification system and an automated loan repayment calculator with Stripe payment."
     },
     {
-      name: "Hero . IO (Front-End)",
-      image: HeroIMG,
-      description: "HERO.IO is a react-based platform where users can explore, install, and uninstall apps virtually. It demonstrates efficient state management and navigation.",
-      tech: ["React.js", "Tailwind CSS", "React-Router", "DaisyUI"],
-      github: "https://github.com/fuadhasan199/Hero-IO.git",
-      live: "https://sunny-florentine-bfe173.netlify.app/",
-      challenges: "Managing the install/uninstall state locally to provide a real-time app store feel without a backend.",
-      futurePlans: "Adding a user review system and a filter feature for easier app discovery."
+      name: "BoiGhor (Full Stack)",
+      image:MockUp,
+      description: "Boighor is a role-based full-stack online bookstore platform built with the MERN stack. It enables users to browse books, manage carts, and complete secure purchases, while providing admins with full inventory and user management control.",
+      tech: [ "React.js",
+    "Tailwind CSS",
+    "DaisyUI",
+    "React-Router",
+    "Axios",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Firebase Auth",
+    "Stripe API",
+     "JWT",
+    "SweetAlert2"],
+       github: "https://github.com/fuadhasan199/Boighor-Client.git",
+        live: "https://boighor-seven.vercel.app",
+       challenges: "Implementing secure role-based authentication, managing cart state with duplicate prevention logic, and integrating Stripe payment flow alongside Cash on Delivery while maintaining consistent backend security with Firebase token verification.",
+
+  futurePlans: "Enhancing admin analytics dashboard with real-time insights, adding product recommendation system based on user behavior, and improving performance optimization for large-scale book inventory handling."
     },
     {
       name: "Emergency Service Directory (Front-End)",
