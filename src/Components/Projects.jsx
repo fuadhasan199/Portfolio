@@ -75,7 +75,7 @@ const Projects = () => {
                 <h3 className="text-xl font-bold text-base-content">{project.name}</h3>
                 <button 
                   onClick={() => setSelectedProject(project)}
-                  className="btn bg-brandPurple  mt-auto border-none p-3 bg-base-200 w-full"
+                  className="btn btn-primary mt-auto border-none p-3 bg-base-200 w-full"
                 >
                   View Details
                 </button>
