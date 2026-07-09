@@ -40,7 +40,7 @@ const Contact = () => {
             </a>
 
             {/* WhatsApp Card */}
-            <a href="https://wa.me/8801700000000" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-5 rounded-2xl  border border-base-100 hover:border-green-200 hover:bg-green-50 transition-all group">
+            <a href="https://wa.me/8801787749095" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-5 rounded-2xl  border border-base-100 hover:border-green-200 hover:bg-green-50 transition-all group">
               <div className="p-3  rounded-xl shadow-sm group-hover:bg-green-600 group-hover:text-white transition-colors">
                 <MessageCircle size={24} />
               </div>
