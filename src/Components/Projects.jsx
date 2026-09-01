@@ -3,13 +3,14 @@ import { Github, ExternalLink, X, Code2, Rocket, Lightbulb } from "lucide-react"
 import EmarIMG from "../assets/Emargeny.png";
 import MockUp from "../assets/Mockup.png";
 import LoanIMG from "../assets/Loan.png";
+import NextImage from "../assets/Next.png"
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
-      name: "LoanLink – Microloan Tracker (Full Stack)",
+      name: "LoanLink – Microloan Tracker (MERN Stack)",
       image: LoanIMG,
       description: "LoanLink is a role-based MERN stack web application for managing microloan applications efficiently. It features separate dashboards for Users, Managers, and Admins, each with different responsibilities for applying, reviewing, and managing loan requests within a structured approval system.",
       tech: ["React.js", "Firebase", "Express.js", "Node.js", "MongoDB", "JWT", "Tailwind CSS"],
@@ -19,7 +20,7 @@ const Projects = () => {
       futurePlans: "Integrating a real-time notification system and an automated loan repayment calculator with Stripe payment."
     },
     {
-      name: "BoiGhor (Full Stack)",
+      name: "BoiGhor (Mern Stack)",
       image:MockUp,
       description: "Boighor is a role-based full-stack online bookstore platform built with the MERN stack. It enables users to browse books, manage carts, and complete secure purchases, while providing admins with full inventory and user management control.",
       tech: [ "React.js",
@@ -41,14 +42,24 @@ const Projects = () => {
   futurePlans: "Enhancing admin analytics dashboard with real-time insights, adding product recommendation system based on user behavior, and improving performance optimization for large-scale book inventory handling."
     },
     {
-      name: "Emergency Service Directory (Front-End)",
-      image: EmarIMG,
-      description: "Emergency Service Directory is a citizen-centric platform initiated by the Government of Bangladesh, bringing essential helplines (999, 333, etc.) to one place.",
-      tech: ["Html", "Tailwind CSS", "Javascript"],
-      github: "https://github.com/fuadhasan199/Emergency-hot-line",
-      live: "https://fuadhasan199.github.io/Emergency-hot-line/",
-      challenges: "Structuring a large dataset of emergency contacts into a clean, mobile-first responsive layout using vanilla JS and Tailwind.",
-      futurePlans: "Adding a geolocation feature to suggest the nearest emergency station based on the user's current location."
+      name: "Care.io(Next.js)",
+      image: NextImage,
+      description: "Care.io — A healthcare service booking platform built with the MERN stack (Next.js), where users can browse and book care services, while admins manage users, services, and messages through a dedicated dashboard. Features NextAuth (credentials + Google), MongoDB, role-based access control, and a Nodemailer-based email reply system.",
+       tech: [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "DaisyUI",
+  "MongoDB",
+  "NextAuth.js",
+  "Node.js",
+  "Nodemailer",
+  "SweetAlert2",
+],
+      github: "https://github.com/fuadhasan199/Care.IO.git",
+      live: "https://care-io-roan.vercel.app",
+    challenges: "Implementing secure authentication with NextAuth (credentials + Google OAuth) alongside JWT-based role management, and integrating a payment gateway for service bookings.",
+futurePlans: "Expanding the admin dashboard with more dynamic, role-based data views and analytics for better platform management."
     },
   ];
 
